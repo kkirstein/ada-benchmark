@@ -5,6 +5,6 @@
         }
     ],
     "settings": {
-        "ada.projectFile": "benchmark_tests.gpr"
+        "ada.projectFile": "app_tests.gpr"
     }
 }

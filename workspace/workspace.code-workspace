@@ -5,6 +5,5 @@
         }
     ],
     "settings": {
-        "ada.projectFile": "app.gpr"
     }
 }

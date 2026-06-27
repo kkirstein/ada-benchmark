@@ -1,0 +1,14 @@
+name = "workspace"
+description = "Micro benchmarks for the Ada programming language"
+version = "0.1.0"
+
+authors = ["Kay-Uwe Kirstein"]
+maintainers = ["Kay-Uwe Kirstein <kay-uwe@kirsteinhome.ch>"]
+maintainers-logins = ["kkirstein"]
+licenses = "MIT"
+website = ""
+tags = ["benchmark"]
+
+[[pins]]
+app = { path = "../app" }
+app_tests = { path = "../tests" }
