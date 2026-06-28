@@ -11,4 +11,5 @@ tags = ["benchmark"]
 
 [[pins]]
 app = { path = "../app" }
-app_tests = { path = "../tests" }
+tasks = { path = "../tasks" }
+tests = { path = "../tests" }
