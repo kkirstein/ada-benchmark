@@ -1,10 +1,10 @@
 with AUnit.Test_Suites; use AUnit.Test_Suites;
-with Fibonacci_Tests;
+with Tests.Fibonacci_Tests;
 
-package body My_Suite is
+package body Tests.My_Suite is
 
    Result : aliased Test_Suite;
-   Fib    : aliased Fibonacci_Tests.Test_Case;
+   Fib    : aliased Tests.Fibonacci_Tests.Fibonacci_Test;
 
    function Suite return Access_Test_Suite is
    begin
@@ -12,4 +12,4 @@ package body My_Suite is
       return Result'Access;
    end Suite;
 
-end My_Suite;
+end Tests.My_Suite;

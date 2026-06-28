@@ -1,4 +1,4 @@
-name = "app_tests"
+name = "tests"
 description = "Unit tests for Ada benchmark"
 version = "0.1.0-dev"
 
@@ -8,13 +8,11 @@ licenses = "MIT"
 website = ""
 tags = []
 
-executables = ["tests"]
-
-[[depends-on]]
-aunit = "^26.0.0"
-
-[[pins]]
-app = { path = "../app" }
+executables = ["tests-run_tests"]
 
 [[depends-on]]
 gid = "^13.0.1"
+aunit = "^26.0.0"
+
+[[pins]]
+tasks = { path = "../tasks" }
