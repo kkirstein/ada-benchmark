@@ -3,16 +3,18 @@ with Ada.Calendar;                          use Ada.Calendar;
 with Ada.Numerics.Big_Numbers.Big_Integers;
 use Ada.Numerics.Big_Numbers.Big_Integers;
 
-with Fibonacci;
-with Perfect_Number;
-with Primes;
-with Aux_Image; use Aux_Image;
-with Mandelbrot;
+with Tasks.Fibonacci;
+with Tasks.Perfect_Number;
+with Tasks.Primes;
+with Tasks.Aux_Image; use Tasks.Aux_Image;
+with Tasks.Mandelbrot;
 with Image_IO.Holders;
 
 procedure App is
-   package Fib renames Fibonacci;
-   package Pn renames Perfect_Number;
+   package Fib renames Tasks.Fibonacci;
+   package Pn renames Tasks.Perfect_Number;
+   package Primes renames Tasks.Primes;
+   package Mandelbrot renames Tasks.Mandelbrot;
 
    procedure Put_Elapsed (Tic : Time; Toc : Time := Clock) is
    begin

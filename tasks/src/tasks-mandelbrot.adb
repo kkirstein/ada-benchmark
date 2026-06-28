@@ -1,6 +1,6 @@
 with Image_IO.Operations;
 
-package body Mandelbrot is
+package body Tasks.Mandelbrot is
 
    R_MAX : constant Float := 2.0;
    N_MAX : constant Natural := 255;
@@ -63,4 +63,4 @@ package body Mandelbrot is
       Image_IO.Operations.Write_PNG (Filename, Img.Value, False);
    end Write_Image;
 
-end Mandelbrot;
+end Tasks.Mandelbrot;

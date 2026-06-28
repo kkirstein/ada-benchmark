@@ -1,4 +1,6 @@
 with "config/app_config.gpr";
+with "../tasks/tasks.gpr";
+
 project App is
 
    for Source_Dirs use ("src/", "config/");

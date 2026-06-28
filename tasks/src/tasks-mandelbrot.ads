@@ -1,7 +1,7 @@
 with Ada.Numerics.Complex_Types; use Ada.Numerics.Complex_Types;
 with Image_IO.Holders;
 
-package Mandelbrot is
+package Tasks.Mandelbrot is
 
    -- Generate Mandelbrot set image
    procedure Generate_Image
@@ -21,4 +21,4 @@ private
    -- Convert pixel value to RGB
    function To_RGB (I : Image_IO.RGB_Value) return Image_IO.Color_Info;
 
-end Mandelbrot;
+end Tasks.Mandelbrot;

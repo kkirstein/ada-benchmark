@@ -1,7 +1,7 @@
 with Ada.Numerics.Elementary_Functions; use Ada.Numerics.Elementary_Functions;
-with Heron_Estimation;
+with Tasks.Heron_Estimation;
 
-package body Primes is
+package body Tasks.Primes is
 
    function Is_Prime (N : Natural) return Boolean is
       Limit : constant Natural := Natural (Sqrt (Float (N)));
@@ -59,4 +59,4 @@ package body Primes is
       return Result;
    end Get_Primes;
 
-end Primes;
+end Tasks.Primes;

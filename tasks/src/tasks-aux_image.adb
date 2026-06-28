@@ -1,7 +1,7 @@
 with Ada.Strings.Unbounded; use Ada.Strings.Unbounded;
 with Ada.Containers;        use Ada.Containers;
 
-package body Aux_Image is
+package body Tasks.Aux_Image is
 
    --  function Generic_Image (X : T) return String is
    --     Res : Unbounded_String := Null_Unbounded_String;
@@ -83,4 +83,4 @@ package body Aux_Image is
       return To_String (Res);
    end Img;
 
-end Aux_Image;
+end Tasks.Aux_Image;

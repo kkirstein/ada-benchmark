@@ -1,6 +1,6 @@
 with Ada.Containers.Vectors;
 
-package Perfect_Number is
+package Tasks.Perfect_Number is
 
    function Is_Perfect (N : Natural) return Boolean;
 
@@ -9,4 +9,4 @@ package Perfect_Number is
 
    function Get_Perfect_Numbers (Limit : Natural) return Pn_Vectors.Vector;
 
-end Perfect_Number;
+end Tasks.Perfect_Number;

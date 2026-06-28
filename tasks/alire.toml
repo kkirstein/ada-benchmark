@@ -1,5 +1,5 @@
-name = "app"
-description = "Micro benchmarks for the Ada programming language"
+name = "tasks"
+description = "Benchmark tasks"
 version = "0.1.0-dev"
 
 authors = ["Kay-Uwe Kirstein"]
@@ -8,14 +8,6 @@ maintainers-logins = ["kkirstein"]
 licenses = "MIT"
 website = ""
 tags = ["benchmark"]
-
-executables = ["app"]
-
-[[pins]]
-tasks = {path = "../tasks"}
-
-[[depends-on]]
-gid = "^13.0.1"
 
 [[depends-on]]
 image_io = "^20240725.0.0"

@@ -1,5 +1,5 @@
 
-package body Fibonacci is
+package body Tasks.Fibonacci is
 
    function Fib_Iter (N : Natural) return Big_Natural is
       A   : Big_Natural := To_Big_Integer (0);
@@ -44,4 +44,4 @@ package body Fibonacci is
       return To_String (N);
    end Big_Natural_Image;
 
-end Fibonacci;
+end Tasks.Fibonacci;

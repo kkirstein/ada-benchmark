@@ -1,11 +1,11 @@
 with Ada.Numerics.Big_Numbers.Big_Integers;
 use Ada.Numerics.Big_Numbers.Big_Integers;
 
-with Fibonacci;      use Fibonacci;
-with Perfect_Number; use Perfect_Number;
-with Primes;         use Primes;
+with Tasks.Fibonacci;      use Tasks.Fibonacci;
+with Tasks.Perfect_Number; use Tasks.Perfect_Number;
+with Tasks.Primes;         use Tasks.Primes;
 
-package Aux_Image is
+package Tasks.Aux_Image is
 
    function Img (X : Natural) return String renames Natural'Image;
 
@@ -25,4 +25,4 @@ private
    --  --with function To_String (X : E) return String;
    --  function Generic_Image (X : T) return String;
 
-end Aux_Image;
+end Tasks.Aux_Image;

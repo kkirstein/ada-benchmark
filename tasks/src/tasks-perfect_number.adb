@@ -1,5 +1,5 @@
 
-package body Perfect_Number is
+package body Tasks.Perfect_Number is
 
    function Is_Perfect (N : Natural) return Boolean is
       Sum : Natural := 0;
@@ -27,4 +27,4 @@ package body Perfect_Number is
       return Result;
    end Get_Perfect_Numbers;
 
-end Perfect_Number;
+end Tasks.Perfect_Number;
